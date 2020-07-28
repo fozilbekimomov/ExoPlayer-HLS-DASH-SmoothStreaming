@@ -13,13 +13,28 @@ android {
         versionCode 1
         versionName "1.0"
 
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+        }
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+//            postprocessing {
+//                removeUnusedCode false
+//                removeUnusedResources false
+//                obfuscate true
+//                optimizeCode true
+//                proguardFile 'proguard-rules.pro'
+//            }
         }
     }
     compileOptions {
