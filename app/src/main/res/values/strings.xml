@@ -1,0 +1,32 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ExoPlayer_HLS_DASH_SmoothStreaming</string>
+
+    <string name="error_generic">Playback failed</string>
+
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="download_start_error">Failed to start download</string>
+
+    <string name="buffer">Buffer:</string>
+    <string name="download">Loading:</string>
+    <string name="speed">Mbps</string>
+    <string name="videoFormat">Video format:</string>
+    <string name="audio">Audio:</string>
+    <string name="codec">Codec:</string>
+    <string name="frameRate">Frame frequency:</string>
+    <string name="videoContainer">Video container:</string>
+    <string name="videoDecoder">Video decoder:</string>
+    <string name="audioDecoder">Audio decoder:</string>
+    <string name="bitrate">Bit rate:</string>
+
+</resources>
