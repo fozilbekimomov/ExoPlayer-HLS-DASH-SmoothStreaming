@@ -26,10 +26,6 @@ import uz.turontelecom.exoplayer_hls_dash_smoothstreaming.core.player.utils.Play
 import static android.media.MediaCodecList.ALL_CODECS;
 
 
-/**
- * Created by Kholmatov Siyavushkhon (TuronTelecom) on 03.07.2018.
- */
-
 public class MyPlayer extends RelativeLayout implements PlayerContract.View, PlayerControlView.VisibilityListener, PlaybackPreparer, View.OnClickListener, View.OnLongClickListener, View.OnTouchListener, PlayerListener {
 
     private PlayerView playerView;
